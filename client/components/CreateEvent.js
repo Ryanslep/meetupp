@@ -160,7 +160,7 @@ const CreateEvent = ({ route, navigation }) => {
           disableClock={true}
           onChange={(time) => setFormData({ ...formData, startTime: time })}
         />
-        <Text>Start Time</Text>
+        <Text>End Time</Text>
         <TimePicker
           style={styles.input}
           value={formData.endTime}
